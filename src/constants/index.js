@@ -11,11 +11,11 @@ export const navLinks = [
   },
   {
     id: "product",
-    title: "Product",
+    title: "Templates",
   },
   {
     id: "clients",
-    title: "Clients",
+    title: "",
   },
 ];
 
@@ -23,23 +23,37 @@ export const features = [
   {
     id: "feature-1",
     icon: star,
-    title: "Rewards",
+    title: "Time Zone",
     content:
-      "The best credit cards offer some tantalizing combinations of promotions and prizes",
+      "Display the Time Zone according to your current country along with your country flag, and say either Good Morning or Good Night to the community or even your custom message to the community out there.",
   },
   {
     id: "feature-2",
     icon: shield,
-    title: "100% Secured",
+    title: "Followers Count",
     content:
-      "We take proactive steps make sure your information and transactions are secure.",
+      "Get the dynamic current count of your followers on your banner, whether it may be just the count or even the profile photos of the latest followers",
   },
   {
     id: "feature-3",
     icon: send,
-    title: "Balance Transfer",
+    title: "Web 3 Stats",
     content:
-      "A balance transfer credit card can save you a lot of money in interest charges.",
+      "Show the latest updates of your NFTs or tokens dynamically",
+  },
+  {
+    id: "feature-4",
+    icon: shield,
+    title: "Live Status",
+    content:
+      "Conducting an online meet or a session, just toggle a button and tell your followers that you are hosting a session through your banner",
+  },
+  {
+    id: "feature-5",
+    icon: star,
+    title: "Anime Love",
+    content:
+      "Show Off Your Anime Love, with Naruto on your banner in the morning and Sakura in the eve. Customise it with full freedom.",
   },
 ];
 

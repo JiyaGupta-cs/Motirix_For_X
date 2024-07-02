@@ -22,13 +22,10 @@ const Business = () =>  (
   <section id="features" className={layout.section}>
     <div className={layout.sectionInfo}>
       <h2 className={styles.heading2}>
-        You do the business, <br className="sm:block hidden" /> we’ll handle
-        the money.
+        Say Hi !!! 👋<br className="sm:block hidden" /> To Automation
       </h2>
       <p className={`${styles.paragraph} max-w-[470px] mt-5`}>
-        With the right credit card, you can improve your financial life by
-        building credit, earning rewards and saving money. But with hundreds
-        of credit cards on the market.
+        Have different categories for your banner like Regional Time of your country, Followers count, Current NFTs status or whether you are live or not hosting a session, and many more.
       </p>
 
       <Button styles={`mt-10`} />
