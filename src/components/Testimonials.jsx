@@ -24,13 +24,13 @@ const Testimonials = () => (
     <div className="flex flex-wrap sm:justify-start justify-center w-full feedback-container relative z-[1]">
       {/* {feedback.map((card) => <FeedbackCard key={card.id} {...card} />)} */}
     </div>
-    <div className="flex gap-8 my-3 mb-8">
-<img src={gm} className="rounded-lg w-[30vw]" alt="" />
-<img src={gn} className="rounded-lg w-[30vw]" alt="" />
+    <div className="flex flex-col gap-8 mb-8 md:flex-row">
+<img src={gm} className="rounded-lg md:w-[30vw]" alt="" />
+<img src={gn} className="rounded-lg md:w-[30vw]" alt="" />
     </div>
-    <div className="flex gap-8">
-<img src={naruto} className="rounded-lg w-[30vw]" alt="" />
-<img src={naruto2} className="rounded-lg w-[30vw]" alt="" />
+    <div className="flex flex-col gap-8 md:flex-row">
+<img src={naruto} className="rounded-lg md:w-[30vw]" alt="" />
+<img src={naruto2} className="rounded-lg md:w-[30vw]" alt="" />
     </div>
   </section>
 );
